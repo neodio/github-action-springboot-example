@@ -1,0 +1,10 @@
+방법 1 - 개인 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Github Actions)
+deploy_method1.yml
+
+방법 2 - 일반 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Github Actions, SCP)
+deploy_method2.yml
+
+방법 3 - 확장성을 고려한 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Code Deploy)
+deploy_method3.yml
+
+원하는 방법으로 workflows 하위에 넣어 commit하면 해당 방법으로 CI/CD
