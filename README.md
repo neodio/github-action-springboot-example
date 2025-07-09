@@ -6,6 +6,8 @@
  - Github Actions 기본 개념
  - Spring Boot 프로젝트에 CI/CD 적용
 
+###
+
 ### 방법 1 - 개인 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Github Actions)
 
 <img src="image/method1.png"  width="450"/><br>
@@ -23,6 +25,8 @@
 
 #### ✅ 이 방법은 언제 주로 쓰는 지
  - 주로 개인 프로젝트에서 CI/CD를 심플하고 빠르게 적용시키고 싶을 때 적용한다.
+
+###
 
 ### 방법 2 - 일반 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Github Actions, SCP)
 
@@ -46,6 +50,8 @@
      - 기능을 추가하거나 수정할 때 더 많은 시간이 들어감
      - 금전적인 비용이 더 많이 발생
 
+###
+
 ### 방법 3 - 확장성을 고려한 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Code Deploy)
 <img src="image/method3.png"  width="450"/><br>
  - method/deploy_method3.yml
@@ -61,6 +67,8 @@
 #### ✅ 이 방법은 언제 주로 쓰는 지
  - 서버를 여러 대 이상 구동해야 하거나 무중단 배포가 중요한 서비스일 때 주로 활용한다.
 
+###
+
 ### 방법 4 - 컨테이너 기반의 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Docker)
 <img src="image/method4.png"  width="450"/><br>
  - method/deploy_method4.yml
@@ -75,6 +83,8 @@
 #### ✅ 이 방법은 언제 주로 쓰는 지
  - 컨테이너 기반으로 인프라를 구성했을 때 이 방법을 많이 활용한다.
  - 서버를 여러 대 운영하고 있지 않을 정도의 소규모 프로젝트 일 때 주로 활용한다.
+
+###
 
 ### 방법 5 - 컨테이너 기반 + 확장성을 고려한 프로젝트에서 많이 쓰는 CI/CD 구축 방법 (Docker, CodeDeploy)
 
